@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		6CA4B4D22639B8500044A9BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4B4D12639B8500044A9BD /* AppDelegate.swift */; };
 		6CA4B4D42639B8500044A9BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4B4D32639B8500044A9BD /* SceneDelegate.swift */; };
-		6CA4B4D62639B8500044A9BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4B4D52639B8500044A9BD /* ViewController.swift */; };
 		6CA4B4D92639B8500044A9BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA4B4D72639B8500044A9BD /* Main.storyboard */; };
 		6CA4B4DB2639B8510044A9BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA4B4DA2639B8510044A9BD /* Assets.xcassets */; };
 		6CA4B4DE2639B8510044A9BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA4B4DC2639B8510044A9BD /* LaunchScreen.storyboard */; };
+		6CA4B4E82639BA510044A9BD /* NetworkMonitorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4B4E72639BA510044A9BD /* NetworkMonitorVC.swift */; };
+		6CA4B4F02639BCEE0044A9BD /* NetworkChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4B4EF2639BCEE0044A9BD /* NetworkChecker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6CA4B4CE2639B8500044A9BD /* NetworkMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CA4B4D12639B8500044A9BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CA4B4D32639B8500044A9BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6CA4B4D52639B8500044A9BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6CA4B4D82639B8500044A9BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CA4B4DA2639B8510044A9BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CA4B4DD2639B8510044A9BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CA4B4DF2639B8510044A9BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CA4B4E72639BA510044A9BD /* NetworkMonitorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitorVC.swift; sourceTree = "<group>"; };
+		6CA4B4EF2639BCEE0044A9BD /* NetworkChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkChecker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				6CA4B4D12639B8500044A9BD /* AppDelegate.swift */,
 				6CA4B4D32639B8500044A9BD /* SceneDelegate.swift */,
-				6CA4B4D52639B8500044A9BD /* ViewController.swift */,
 				6CA4B4D72639B8500044A9BD /* Main.storyboard */,
+				6CA4B4E72639BA510044A9BD /* NetworkMonitorVC.swift */,
+				6CA4B4EF2639BCEE0044A9BD /* NetworkChecker.swift */,
 				6CA4B4DA2639B8510044A9BD /* Assets.xcassets */,
 				6CA4B4DC2639B8510044A9BD /* LaunchScreen.storyboard */,
 				6CA4B4DF2639B8510044A9BD /* Info.plist */,
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CA4B4D62639B8500044A9BD /* ViewController.swift in Sources */,
+				6CA4B4E82639BA510044A9BD /* NetworkMonitorVC.swift in Sources */,
 				6CA4B4D22639B8500044A9BD /* AppDelegate.swift in Sources */,
+				6CA4B4F02639BCEE0044A9BD /* NetworkChecker.swift in Sources */,
 				6CA4B4D42639B8500044A9BD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +300,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.owaisss10.NetworkMonitor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.owaisss10.NetworkMonitor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
