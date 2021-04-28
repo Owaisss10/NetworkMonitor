@@ -1,0 +1,16 @@
+PODS:
+  - GSMessages (1.7.4)
+
+DEPENDENCIES:
+  - GSMessages
+
+SPEC REPOS:
+  trunk:
+    - GSMessages
+
+SPEC CHECKSUMS:
+  GSMessages: 9a82cc40465b88cd5d5759bee1fe812c3c63cc3a
+
+PODFILE CHECKSUM: 93e93529155de4f66e0a6146ca02f21bf2a098dd
+
+COCOAPODS: 1.10.1
